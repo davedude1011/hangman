@@ -16,8 +16,9 @@ import {
  *
  * @see https://orm.drizzle.team/docs/goodies#multi-project-schema
  */
-export const createTable = pgTableCreator((name) => `hangman_${name}`);
+//export const createTable = pgTableCreator((name) => `hangman_${name}`);
 
+/*
 export const posts = createTable(
   "post",
   {
@@ -34,3 +35,4 @@ export const posts = createTable(
     nameIndex: index("name_idx").on(example.name),
   })
 );
+*/
